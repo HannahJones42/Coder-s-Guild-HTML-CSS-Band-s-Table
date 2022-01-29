@@ -1,0 +1,49 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead, tfoot {
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("assets/leopardskin.jpg");
+  color: #ffffff;
+}
+
+thead th, tfoot th, tfoot td {
+  border: 5px #800080 solid;
+}
+
+th {
+  font-family: 'Rock Salt', cursive;
+}
+
+tbody tr:nth-child(odd) {
+  background: url("assets/noise.png") #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background: url("assets/noise.png") #e495e4 ;
+}
+
+td {
+  text-align: center;
+}
+
+#total {
+  text-align: right;
+}
+
+#number {
+  text-align: left;
+}
